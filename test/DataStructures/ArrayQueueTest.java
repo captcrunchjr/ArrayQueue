@@ -5,7 +5,7 @@ import Exceptions.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class ArrayQueueHiddenTest {
+public class ArrayQueueTest {
     ArrayQueue<Integer> list = new ArrayQueue<Integer>(10);
 
     @Test
