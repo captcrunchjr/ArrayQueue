@@ -5,8 +5,10 @@
   ],
   "java.project.outputPath": "./target/",
   "java.project.referencedLibraries": [
-    "./lib/*.jar"
+    "./lib/*.jar",
+    "test-lib\\**\\*.jar"
   ],
   "workspaceKeybindigs.ummTasksKeys.enabled": true,
-  "ummBinaryPath": "./umm"
+  "ummBinaryPath": "./umm",
+  "java.debug.settings.onBuildFailureProceed": true
 }
