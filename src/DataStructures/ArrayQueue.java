@@ -5,16 +5,35 @@ import java.util.Arrays;
 import ADTs.*;
 import Exceptions.*;
 
+/**@author Joshua Eckard
+ * 
+ */
 public class ArrayQueue<T> implements QueueADT<T> {
 
+    /**Size of the queue
+     * Defaul 0     * 
+     */
     int size=0;
+    /**Capacity of the queue
+     * 
+     */
     int cap;
+    /**Declare array to back the queue.
+     * 
+     */
     T q[];
 
+    /**Constructor
+     * 
+     */
     public ArrayQueue(){
         cap = 10;
     }
 
+    /**Constructor
+     * 
+     * @param cap capacity of the queue
+     */
     public ArrayQueue(int cap){
         this.cap = cap;
         q = (T[]) new Object[cap];
